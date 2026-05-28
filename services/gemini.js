@@ -1,7 +1,7 @@
 import { GoogleGenAI } from '@google/genai';
 
 // Inicializamos el motor con tu llave
-const ai = new GoogleGenAI({ apiKey: "const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });" });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 export async function buscarTraduccionNostalgica(antojoUsuario) {
     try {
